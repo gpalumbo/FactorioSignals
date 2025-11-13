@@ -5,7 +5,7 @@ The Mission Control mod extends Factorio 2.0+ space platform automation by enabl
 
 ## File Structure
 ```
-mission-control/
+/
 ├── info.json
 ├── changelog.txt
 ├── thumbnail.png (optional, 144x144)
@@ -20,10 +20,35 @@ mission-control/
 │   ├── item.lua
 │   └── recipe.lua
 └── graphics/
-    └── icons/
-        ├── mission-control.png (64x64)
-        ├── receiver-combinator.png (64x64)
-        └── logistics-combinator.png (64x64)
+│   ├── entity/
+│   │   ├── mission-control/
+│   │   │   ├── mission-control-base.png
+│   │   │   ├── mission-control-base-hr.png
+│   │   │   ├── mission-control-shadow.png
+│   │   │   ├── mission-control-shadow-hr.png
+│   │   │   ├── mission-control-antenna.png
+│   │   │   ├── mission-control-antenna-hr.png
+│   │   │   ├── mission-control-leds.png
+│   │   │   └── mission-control-remnants.png
+│   │   ├── receiver-combinator/
+│   │   │   ├── receiver-combinator-base.png
+│   │   │   ├── receiver-combinator-base-hr.png
+│   │   │   ├── receiver-combinator-dish.png
+│   │   │   ├── receiver-combinator-dish-hr.png
+│   │   │   └── ...
+│   │   └── logistics-combinator/
+│   │       ├── logistics-combinator-base.png
+│   │       ├── logistics-combinator-base-hr.png
+│   │       └── ...
+│   ├── icons/
+│   │   ├── mission-control-building.png
+│   │   ├── receiver-combinator.png
+│   │   └── logistics-combinator.png
+│   ├── technology/
+│   │   ├── mission-control.png
+│   │   └── logistics-circuit-control.png
+│   └── gui/
+│       └── ...
 ```
 
 ## info.json
